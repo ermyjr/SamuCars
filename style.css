@@ -1,6 +1,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 
 h5 {
@@ -17,24 +18,25 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 header img {
     width: 80px
 }
 
-main { 
+main {
     margin-top: 50px;
     display: flex;
 }
 
-.infos{
+.infos {
     padding: 25px 50px 25px 50px;
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
-.infos h2{
-    margin: 30px 0 ;
+.infos h2 {
+    margin: 30px 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -44,10 +46,10 @@ main {
     color: #FF0000;
 }
 
-.infos button{
+.infos button {
     font-size: 15px;
     font-weight: 100;
-    color:#FFFFFF;
+    color: #FFFFFF;
     height: 60px;
     width: 120px;
     border: 3px solid #8B0000;
@@ -58,13 +60,10 @@ main {
     align-items: center;
 }
 
-.infos button p{
+.infos button p {}
 
-
-}
-
-.infos p{
-    margin: 30px 0 ;
+.infos p {
+    margin: 30px 0;
 
 }
 
@@ -73,11 +72,12 @@ main {
     width: 80px;
 }
 
-.image{
+.image {
     display: flex;
 }
 
-footer{
+footer {
+    margin: 0;
     background-color: #8B0000;
     height: 75px;
     display: flex;
