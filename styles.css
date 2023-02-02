@@ -12,7 +12,7 @@ h5 {
 
 header {
     background-color: #8B0000;
-    height: 125px;
+    height: 14vh;
     padding: 0 80px;
     display: flex;
     align-items: center;
@@ -24,6 +24,7 @@ header img {
 }
 
 main {
+    height: 74vh;
     margin-top: 50px;
     display: grid;
 }
@@ -80,7 +81,8 @@ main {
 }
 
 .image img {
-    border: 5px solid #8B0000;
+    width: 100%;
+
 
 }
 
@@ -89,7 +91,7 @@ main {
     align-items: center;
     justify-content: center;
     margin: 50px 0 25px;
-    gap: 15px;
+    gap: 35px;
 }
 
 .menu img {
@@ -100,6 +102,7 @@ main {
 }
 
 footer {
+    height: 10vh;
     margin: 0;
     background-color: #8B0000;
     height: 75px;
