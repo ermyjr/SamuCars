@@ -23,11 +23,12 @@ header img {
     width: 80px
 }
 
-main {    
+main {
     margin-top: 50px;
     display: grid;
 }
-.section{
+
+.section {
     display: flex;
     justify-content: space-around;
 
@@ -77,21 +78,24 @@ main {
     align-items: flex-end;
     justify-content: center;
 }
+
 .image img {
     border: 5px solid #8B0000;
 
 }
-.menu{
+
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:  50px 0 25px;
+    margin: 50px 0 25px;
     gap: 15px;
 }
+
 .menu img {
     height: 50px;
     width: 50px;
-    cursor:pointer;
+    cursor: pointer;
 
 }
 
