@@ -1,60 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,500&display=swap"
-        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Tipos de Ambulância</title>
+    <title>Frota</title>
 </head>
 
 <body>
     <header>
-        <img src="./assets/logotipo-personalizado-mesa.png">
-        <h5>Veiculos do Samu</h5>
+        <p>Brasil</p>
     </header>
+    <nav>
+        <h2 class="samu">SAMU 192</h2>
+        <h3 class="RCG">Região CAMPO GRANDE</h3>
+        <h3 class="time">13:47:12 29/jun/2022</h3>
+        <button class="chat">CHAT</button>
+        <button class="search">PESQUISA</button>
+        <button class="exit">SAIR</button>
+    </nav>
+    <aside>
+        <h4 class="solic">Solicitações</h4>
+        <table>
+            <tr>
+                <td>Ocorrências</td>
+                <td>identificação</td>
+            </tr>
+            <tr>
+                <td>290158</td>
+                <td>CAMPO GRANDE - PASS MAL</td>
+            </tr>
+            <tr>
+                <td>290159</td>
+                <td>RVMT - PASS MAL</td>
+            </tr>
+            <tr>
+                <td>290160</td>
+                <td>CAMPO GRANDE - PSF ANACHE</td>
+            </tr>
+            <tr>
+                <td>290161</td>
+                <td>SIDROLANDIA - PASS MAL</td>
+            </tr>
+            <tr>
+                <td>290162</td>
+                <td>CAMPO GRANDE - CRS TIRADENTES</td>
+            </tr>
+            <tr>
+                <td>290163</td>
+                <td>CAMPO GRANDE - UPA UNIVERSITARIO</td>
+            </tr>
+        </table>
+        <h5 class="andamento">Em Ocorrências</h5>
+        <h5 class="andamento">Base</h5>
+        <h5 class="andamento">Livre</h5>
+        <table>
+            <tr>
+                <td>Ocorrências</td>
+                <td>identificação</td>
+            </tr>
+            <tr>
+                <td>290058</td>
+                <td>CAMPO GRANDE - PASS MAL</td>
+            </tr>
+             <tr>
+                <td>290259</td>
+                <td>RVMT - PASS MAL</td>
+            </tr>
+             <tr>
+                <td>290360</td>
+                <td>CAMPO GRANDE - PSF ANACHE</td>
+            </tr>
+            <tr>
+                <td>290061</td>
+                <td>SIDROLANDIA - PASS MAL</td>
+            </tr>
+            <tr>
+                <td>290362</td>
+                <td>CAMPO GRANDE - CRS TIRADENTES</td>
+            </tr>
+                <tr>
+                <td>290143</td>
+                <td>CAMPO GRANDE - UPA UNIVERSITARIO</td>
+            </tr>
+        </table>
+    </aside>
     <main>
-
-        <div class="section">
-            <div class="infos">
-                <h2>Lorem <span>ipsum</span></h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum incidunt ratione eaque accusamus quo
-                    sed
-                    minima error praesentium, rem aspernatur dignissimos deleniti, hic delectus, odit vel ex.
-                    Distinctio,
-                    exercitationem amet?</p>
-                <button>Saiba mais</button>
-
-            </div>
-            <div class="image">
-                <img src="./assets/ambulanciaSamu.png" alt="ambulancia">
-            </div>
-
-        </div>
-        <div class="menu">
-
-            <img src="./assets/ambulance.png">
-            <img src="./assets/car.png">
-            <img src="./assets/motorcycle.png">
-            <img src="./assets/helicoptero.png">
-            <img src="./assets/barco.png">
-
-        </div>
-
+        <section>
+            <h4>Número da Ocorrência</h4>
+            <p>Seq. de Envio:</p>
+            <p>Tipo de Veículo:</p>
+            <button> Atualização - intercorrencia </button>
+        </section>
+        <section>
+            <h4>Endereço da Ocorrência</h4>        
+        </section>
+        <section>
+            <p>Unidade de Destino</p>
+        </section>
+        <section>
+            <p> Mensagem</p>
+        </section>
+        <section>
+            <container>
+                <p>Veiculos</p>
+                <input>          
+                <p>equipes</p>
+                <input>            
+                <p>Profissionais Disponiveis</p>
+                <p>Tipo/Nome</p>
+                <input>
+                <input>
+            </container>
+            <container>
+                <button>►</button>
+                <button>◄</button>
+                <button>►</button>
+                <button>►</button>
+                <button>◄</button>
+            </container>
+            <container>
+                <p>Veiculo na ocorrência</p>
+                <input>
+                <p>Profissionais na Ocorrência</p>
+                <input>
+                <button>Enviar Equipe</button>
+                <button>Limpa</button>
+                <button> Cancelar Solicitação</button>
+            </container>
+        </section>
     </main>
-
     <footer>
-        <h5> Criado por Elizeu Rodrigues</h5>
-    
+        <H2>DATASUIS</H2>
     </footer>
+    
 </body>
-
-
-<script src="script.js"></script>
-
 </html>
