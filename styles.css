@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
 }
 
-header img {
+.logo {
     width: 10vh;
     margin: 5vh 0 0 0;
 }
@@ -81,7 +81,7 @@ main {
     justify-content: center;
 }
 
-.image img {
+.cars {
     width: 100%;
 
 
@@ -95,11 +95,16 @@ main {
     gap: 35px;
 }
 
-.menu img {
+.bottonMenu {
     height: 50px;
     width: 50px;
     cursor: pointer;
+    transition: 1s;
+}
 
+.bottonMenu:hover{
+    transform: translateY(-15px);
+    
 }
 
 footer {
