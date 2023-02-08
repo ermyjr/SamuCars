@@ -15,26 +15,26 @@ let info = document.getElementById('infos')
 
 ambulance.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "ambulância";
-    info.getElementsByTagName('p')[0].innerHTML = " Transporta passageiros";
+    info.getElementsByTagName('p')[0].innerHTML = " atualizando...";
     
 });
 
 vir.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "carro";
-    info.getElementsByTagName('p')[0].innerHTML = "acerto mizeravi";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
 
 mike.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "moto";
-    info.getElementsByTagName('p')[0].innerHTML = "acerto mizeravi";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
 
 helicopter.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "aéreo";
-    info.getElementsByTagName('p')[0].innerHTML = "acerto mizeravi";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
 
 lancha.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "naval";
-    info.getElementsByTagName('p')[0].innerHTML = "acerto mizeravi";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
