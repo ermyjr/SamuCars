@@ -1,6 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 0 0 0;
     box-sizing: border-box;
 }
 
@@ -21,23 +21,23 @@ header {
 
 .logo {
     width: 10vh;
-    margin: 5vh 0 0 0;
 }
 
 main {
-   height: 74vh;
+    width: 100%;
+    height: 74vh;
     margin-top: 50px;
     display: grid;
 }
 
 .section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 .infos {
-    padding: 25px 50px 25px 50px;
+    margin: 25px 0 0 80px;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -45,13 +45,15 @@ main {
 }
 
 .infos h2 {
-    margin: 30px 0;
+    margin: 30px 0 0 0 ;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    gap: 10px;
     justify-content: center;
 }
 
 .infos span {
+    text-transform: capitalize;
     color: #FF0000;
 }
 
@@ -71,18 +73,24 @@ main {
 
 .infos p {
     margin: 30px 0;
-
+    text-transform: capitalize;
 }
 
 
 .image {
+    margin: 5vh 0 0 0;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    background-color: #FF8C00;
+    border-radius: 45% 0 0 0;
 }
 
+
 .cars {
-    width: 100%;
+    padding: 10px;
+    height: 50vh;
+
 
 
 }
@@ -91,8 +99,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0 25px;
+    margin:0 0 0 0;
     gap: 35px;
+    background-color: #FF8C00;
+    border-radius: 0 0 50vh 0 ;
 }
 
 .bottonMenu {
@@ -115,7 +125,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: static;
-    width: 100%;
-    bottom: 0;
 }

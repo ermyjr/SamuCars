@@ -21,9 +21,9 @@
     <main>
 
         <div class="section">
-            <div class="infos">
-                <h2>Lorem <span>ipsum</span></h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum incidunt ratione eaque accusamus quo
+            <div class="infos" id="infos">
+                <h2>Veiculo tipo:<span id="type">Ambulância</span></h2>
+                <p id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum incidunt ratione eaque accusamus quo
                     sed
                     minima error praesentium, rem aspernatur dignissimos deleniti, hic delectus, odit vel ex.
                     Distinctio,
@@ -38,11 +38,15 @@
         </div>
         <div class="menu">
 
-            <img class="bottonMenu" src="./assets/ambulance.png" alt="vtr">
-            <img class="bottonMenu" src="./assets/car.png" alt="vir">
-            <img class="bottonMenu" src="./assets/motorcycle.png" alt="mike">
-            <img class="bottonMenu" src="./assets/helicoptero.png" alt="helicoptero">
-            <img class="bottonMenu" src="./assets/barco.png" alt="ambulancha">
+            <img class="bottonMenu" id="ambulance" onclick="trocaImagem('./assets/ambulanciaSamu.png')"
+                src="./assets/ambulance.png" alt="vtr">
+            <img class="bottonMenu" id="vir" onclick="trocaImagem('./assets/vir.png')" src="./assets/car.png" alt="vir">
+            <img class="bottonMenu" id="mike" onclick="trocaImagem('./assets/mike.png')" src="./assets/motorcycle.png"
+                alt="mike">
+            <img class="bottonMenu" id="air" onclick="trocaImagem('./assets/helicopteroRescue.png')"
+                src="./assets/helicoptero.png" alt="helicoptero">
+            <img class="bottonMenu" id="water" onclick="trocaImagem('./assets/ambulancha.png')" src="./assets/barco.png"
+                alt="ambulancha">
 
         </div>
 
@@ -50,7 +54,7 @@
 
     <footer>
         <h5> Criado por Elizeu Rodrigues</h5>
-    
+
     </footer>
 </body>
 
