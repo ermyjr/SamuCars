@@ -1,3 +1,4 @@
+
 const image = document.querySelector(".cars");
 function trocaImagem(endereco) {
     image.src = endereco
@@ -38,3 +39,4 @@ lancha.addEventListener('click', () => {
     info.getElementsByTagName('span')[0].innerHTML = "naval";
     info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
+
