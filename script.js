@@ -1,5 +1,5 @@
 const image = document.querySelector(".cars");
-function trocaImagem(endereco){
+function trocaImagem(endereco) {
     image.src = endereco
 };
 
@@ -8,15 +8,33 @@ function trocaImagem(endereco){
 
 let ambulance = document.querySelector("#ambulance");
 let vir = document.querySelector("#vir");
-let mike = document.querySelector ("#mike");
+let mike = document.querySelector("#mike");
 let helicopter = document.querySelector("#air");
 let lancha = document.querySelector("#water");
+let info = document.getElementById('infos')
 
+ambulance.addEventListener('click', () => {
+    info.getElementsByTagName('span')[0].innerHTML = "ambulância";
+    info.getElementsByTagName('p')[0].innerHTML = " atualizando...";
+    
+});
 
-vir.addEventListener('click',() => {
+vir.addEventListener('click', () => {
+    info.getElementsByTagName('span')[0].innerHTML = "carro";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
+});
 
-    image.onclick = function(){
-        this.getElementsByTagName("img")[0].src = "./assets/vir.png";
-      };
-    console.log('cliqueii')
+mike.addEventListener('click', () => {
+    info.getElementsByTagName('span')[0].innerHTML = "moto";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
+});
+
+helicopter.addEventListener('click', () => {
+    info.getElementsByTagName('span')[0].innerHTML = "aéreo";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
+});
+
+lancha.addEventListener('click', () => {
+    info.getElementsByTagName('span')[0].innerHTML = "naval";
+    info.getElementsByTagName('p')[0].innerHTML = "atualizando...";
 });
